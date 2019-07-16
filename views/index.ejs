@@ -1,0 +1,8 @@
+<h1>Mars Missions</h1>
+
+<ul class="missions">
+	<%missions.forEach(function(mission, index) {%>
+		<li><a href="/marsMissions/<%=index%>"><%=mission.name%></a></li>
+	<%})%>
+</ul>
+
